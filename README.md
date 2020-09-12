@@ -4,7 +4,7 @@ Estrutura inicial de projeto em PHP-Laravel 5.7 com Docker e Docker-Compose
 
 Tenha o Docker e o Docker compose instalado
 
-#Acessar a pasta php-fpm
+#Acessar a pasta phpdocker
 
 Subir o contâiner 
 
