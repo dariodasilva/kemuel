@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/kemuel/', function ($nome) {
+    return view('welcomeKemuel');
+});
+
+
+Route::get('/dario/{nome?}', function ($nome=null) {
+//    return "O seu nome é, $nome";
+    if(isset($nome)){
+        return "O seu nome é, $nome";
+    }else{
+        return "Nenhum nome foi digitado";
+    }
+});
